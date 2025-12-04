@@ -97,13 +97,6 @@ The SDK script automatically initializes before the first scene loads using:
 
 This ensures the plugin is ready to use instantly when the game starts.
 
----
-
-## 📱 Platform Support
-
-- **Platform:** Android only
-- **Unity Version:** 2019.4 or higher recommended
-- **API Level:** Android 4.0+ (API 14+)
 
 ---
 
