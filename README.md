@@ -55,4 +55,18 @@ Unity calls:
 NativeSdk.Instance.ShowLongToast(gameObject.name);
 
 So you will see a toast like taped object names
+🧠 Usage (In Your Game)
+
+You can show toast from ANY script:
+
+NativeSdk.Instance.ShowShortToast("Hello from Unity!");
+NativeSdk.Instance.ShowLongToast("This is a long toast!");
+
+
+🚀 No Prefabs Needed
+
+You do not need to create any prefabs or place any objects inside the scene manually.
+The script uses:
+
+[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
 
